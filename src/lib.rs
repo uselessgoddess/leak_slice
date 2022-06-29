@@ -1,4 +1,6 @@
-use std::ptr::NonNull;
+#![no_std]
+
+use core::ptr::NonNull;
 
 /// `LeakSliceExt` - leak slice in favor of `NonNull`
 pub trait LeakSliceExt<T> {
