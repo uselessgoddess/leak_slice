@@ -1,4 +1,4 @@
-# Leak `&mut [T]` in favor of `NonNull<[T]>`
+## Leak `&mut [T]` in favor of `NonNull<[T]>`
 ```rust
 use leak_slice::LeakSliceExt;
 use std::mem::forget;
